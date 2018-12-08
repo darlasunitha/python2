@@ -1,3 +1,3 @@
-p,t,r=map(int,raw_input().split())
-floor=(p*t*r)/100
+a,b,c=map(int,raw_input().split())
+floor=(a*b*c)/100
 print floor
