@@ -1,3 +1,3 @@
-num=int(raw_input())
-list=[int(x) for x in raw_input().split()]
+num2=int(raw_input())
+list=[int(y) for y in raw_input().split()]
 print sum(list)
