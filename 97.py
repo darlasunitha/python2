@@ -1,7 +1,7 @@
-n=int(raw_input())
+num=int(raw_input())
 rev=0
-while(n>0):
-    remainder=n%10
+while(num>0):
+    remainder=num%10
     rev=rev*10+remainder
-    n=n/10
+    num=num/10
 print rev    
